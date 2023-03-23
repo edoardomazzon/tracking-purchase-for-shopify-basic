@@ -1,13 +1,14 @@
 # Simple tracking for Shopify Basic
-This is for the basic plan.
+This guide is for the Shopify basic plan.
 
 For tracking purchases on Shopify, we will not use the usual GTM script because unfortunately everything happens on separate files from those of the theme.
-<br />
+
 However, remember that GTM must be installed in any case in the global theme file by going to `Sales Channels->Online Store->Themes->...->Edit Code->Layout->theme.liquid` and inserting the two classics script inside the `<head>` tag and right after the `<body>` tag.
-<br />
+
 Once GTM is installed in the theme, to enter the purchase tracking we will have to go to `Settings->Checkout->Order Status Page->Additional Scripts`.
 Here we will insert, based on where we want to send the data, one of the following scripts:
-<br />
+
+
 ### Google Analytics
 ```
 <!-- Global site tag (gtag.js) - Google Analytics 4 -->
@@ -78,5 +79,6 @@ Here we will insert, based on where we want to send the data, one of the followi
   {% endif %}
 </script>
 ```
-<br/>
+
+
 In all three cases, the service variables will obviously have to be changed, i.e. in order `G-XXXXXXXXXX`, `AW-00000000000/xxxxxxxxxx`, `000000000000000`.
