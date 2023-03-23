@@ -3,9 +3,9 @@ This guide is for the Shopify basic plan.
 
 For tracking purchases on Shopify, we will not use the usual GTM script because unfortunately everything happens on separate files from those of the theme.
 
-However, remember that GTM must be installed in any case in the global theme file by going to `Sales Channels->Online Store->Themes->...->Edit Code->Layout->theme.liquid` and inserting the two classics script inside the `<head>` tag and right after the `<body>` tag.
+However, remember that GTM must be installed in any case in the global theme file by going to `Sales Channels -> Online Store -> Themes -> ... -> Edit Code -> Layout -> theme.liquid` and inserting the two classics script inside the `<head>` tag and right after the `<body>` tag.
 
-Once GTM is installed in the theme, to enter the purchase tracking we will have to go to `Settings->Checkout->Order Status Page->Additional Scripts`.
+Once GTM is installed in the theme, to enter the purchase tracking we will have to go to `Settings -> Checkout -> Order Status Page -> Additional Scripts`.
 Here we will insert, based on where we want to send the data, one of the following scripts:
 
 
