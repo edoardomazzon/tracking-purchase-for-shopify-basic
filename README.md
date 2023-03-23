@@ -1,4 +1,4 @@
-# Simple tracking for Shopify Basic
+# Simple tracking purchases for Shopify Basic
 This guide is for the Shopify basic plan.
 
 For tracking purchases on Shopify, we will not use the usual GTM script because unfortunately everything happens on separate files from those of the theme.
